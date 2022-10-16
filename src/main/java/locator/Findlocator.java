@@ -42,6 +42,9 @@ public class Findlocator {
 		//driver.findElement(By.xpath("//strong[text()='Link Test : New Page']")).click();
 		
 	}
+	public void tearDown(){
+		driver.close();
+		
 	
 	}
 
